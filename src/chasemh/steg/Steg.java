@@ -317,7 +317,6 @@ public class Steg {
 		for( int i = 0; i < encryptedPixels.length; ++i ) {
 			CipherPixel encrypted = encryptedPixels[ i ];
 			CipherPixel key = this.pixels[ i ];
-			//System.out.println( "Encrypted: " + encrypted.getRGB() + " Key: " + key.getRGB() );
 			if( encrypted.compareTo( key ) != 0 ) {
 				// Pixels are not the same
 				// A character must be encrypted in this pixel!
