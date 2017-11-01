@@ -8,6 +8,11 @@ Steg class.
 
 Each class in this project is documented using Javadoc.
 
+## Limitations
+
+* Currently only PNG image file are supported.
+* For best results, do not try to encrypt messages in images containing mostly white pixels.
+
 ## Compatibility
 
 * Compiled and tested under Java 1.8
